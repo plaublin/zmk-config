@@ -88,10 +88,10 @@
 // | NONE | GUI  | ALT | CTL | TAB |  TGL |   | NONE | NONE | RCTL | RALT | RGUI | NONE |
 //                     |NONE | SYM | SPC  |   | ENT  | NUM  | NONE |
                         bindings = <
-   &none &none    &mskp MB3 &msc SCRL_UP   &gresc    &none      &mskp MB3 &mskp MB1      &mmv MOVE_UP   &mskp MB2       &none    &none
-   &none &none    &mskp MB1 &msc SCRL_DOWN &mskp MB2 &none      &none     &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &none    &none
-   &none &kp LGUI &kp LALT  &kp LCTL       &kp TAB   &tog 4     &none     &none          &kp RCTL       &kp RALT        &kp RGUI &none
-                            &trans         &trans    &trans     &trans    &trans         &trans
+   &none &none    &mkp MB3 &msc SCRL_UP   &gresc   &none      &mkp MB3 &mkp MB1       &mmv MOVE_UP   &mkp MB2        &none    &none
+   &none &none    &mkp MB1 &msc SCRL_DOWN &mkp MB2 &none      &none    &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &none    &none
+   &none &kp LGUI &kp LALT &kp LCTL       &kp TAB  &tog 4     &none    &none          &kp RCTL       &kp RALT        &kp RGUI &none
+                            &trans        &trans   &trans     &trans   &trans         &trans
                         >;
                 };
 
